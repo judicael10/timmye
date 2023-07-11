@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"> </script>
+  <script src="appli.js" defer></script>
+  <title>Mon site - Connexion</title>
+</head>
+
+<body>
+  <div class="back">
+    <button id="button"><a href="#" class="fa fa-arrow-left"></a></button>
+  </div>
+  <div id="show">
+    <p >Bienvenue a toi !!! veillez remplir les champs</p>
+    <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+        <div class="div"><span class="dot"></span></div>
+  </div>
+    
+
+  <div class="container">
+    <div class="logo">
+      <a href="#" class="fa fa-user"></a>
+    </div>
+
+    <div class="tab-body" data-id="connexion">
+      <form>
+        <div class="row">
+          <a href="#" class="fa fa-user"></a>
+          <input type="text" class="input" placeholder="Nom Complet">
+        </div>
+        <div class="row">
+          <a href="#" class="fa fa-lock"></a>
+          <input placeholder="Mot de Passe" type="password" class="input">
+        </div>
+        <a href="#" class="link">Mot de passe oublié ?</a>
+        <button class="btn" type="button">Connexion</button>
+      </form>
+    </div>
+
+    <div class="tab-body" data-id="inscription">
+      <form>
+        <div class="row">
+          <a href="#" class="fa fa-user"></a>
+          <input type="text" class="input" placeholder="Nom Complet">
+        </div>
+        <div class="row">
+          <a href="#" class="fa fa-lock"></a>
+          <input type="password" class="input" placeholder="Mot de Passe">
+        </div>
+        <div class="row">
+          <a href="#" class="fa fa-lock"></a>
+          <input type="password" class="input" placeholder="Confirmer Mot de Passe">
+        </div>
+        <div class="row">
+          <a href="#" class="fa fa-phone"></a>
+          <input type="tel" class="input" placeholder="Numero de Teleph...">
+        </div>
+        <button class="btn" type="button">Inscription</button>
+      </form>
+    </div>
+
+    <div class="tab-footer">
+      <a class="tab-link active" data-ref="connexion" onclick="ferme()" href="javascript:void(0)">Connexion</a>
+      <a class="tab-link" data-ref="inscription"  onclick="show()" href="javascript:void(0)">Inscription</a>
+    </div>
+  </div>
+</body>
+
+</html>
